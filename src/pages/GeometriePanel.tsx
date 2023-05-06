@@ -54,7 +54,7 @@ export function GeometriePanel() {
                     </Grid>
                     <Grid sm={6} justify='center'>
                         <ProgressExerciseCard level={1} color='purple' type='cool'
-                            disabled
+                            // disabled
                             to='/geometrie/comparare'
                             exercise='Comparare Figuri'
                             current={progress.value.level1.matematica
